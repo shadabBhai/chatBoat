@@ -50,7 +50,7 @@ export function Registration() {
         <div>
           <input
             type="text"
-            placeholder="Name"
+            placeholder="Name : User"
             className="w-full p-2 border rounded"
             value={formData.name}
             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -61,7 +61,7 @@ export function Registration() {
         <div>
           <input
             type="email"
-            placeholder="Email"
+            placeholder="Mail : demo@mail.com"
             className="w-full p-2 border rounded"
             value={formData.email}
             onChange={(e) =>
@@ -76,7 +76,7 @@ export function Registration() {
         <div>
           <input
             type="password"
-            placeholder="Password"
+            placeholder="Password is 123456"
             className="w-full p-2 border rounded"
             value={formData.password}
             onChange={(e) =>
