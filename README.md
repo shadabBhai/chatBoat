@@ -2,6 +2,10 @@
 
 A React-based onboarding workflow for businesses to set up AI chatbots, featuring user registration, organization configuration, and chatbot integration.
 
+## Live URL 
+  ```bash
+    https://chat-boat-orpin.vercel.app/
+  ```
 ## Features
 
 - **Three-Step Onboarding Process**
@@ -57,6 +61,7 @@ A React-based onboarding workflow for businesses to set up AI chatbots, featurin
 
 ## Project Structure
     ```bash
+    
         src/
           ├── components/    # Reusable UI components
           ├── pages/         # Main workflow screens
@@ -68,3 +73,37 @@ A React-based onboarding workflow for businesses to set up AI chatbots, featurin
           ├── App.js         # Router configuration
           └── index.js       # Entry point
     ```
+
+## Contributing
+1. Fork the repository.
+2. Create your feature branch:
+```bash
+git checkout -b feature/your-feature
+```
+3. Commit your changes:
+```bash
+git commit -m 'Add some feature'
+```
+4. Push to the branch:
+```bash
+git push origin feature/your-feature
+```
+5. Open a Pull Request
+
+## Future Improvements
+* Add real backend integration
+
+* Implement comprehensive form validation
+
+* Add user authentication persistence
+
+* Include actual chatbot training status
+
+* Add admin panel functionality
+
+* Implement social media sharing features
+
+
+
+
+
