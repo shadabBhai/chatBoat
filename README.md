@@ -6,6 +6,12 @@ A React-based onboarding workflow for businesses to set up AI chatbots, featurin
   ```bash
     https://chat-boat-orpin.vercel.app/
   ```
+### Demo data
+  ```bash
+     email : demo@mail.com
+     password : 123456
+     verify Email : 123456
+  ```
 ## Features
 
 - **Three-Step Onboarding Process**
